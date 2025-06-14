@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MyPortfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - My Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<a href="blog.html" class="clickable-word">⬅️</a>
+
+<style>
+.clickable-word {
+  text-decoration: none; /* Removes underline */
+  color: blue; /* Optional: set the text color */
+  cursor: pointer; /* Changes cursor on hover */
+  font-size: 45px;
+}
+</style>
+
+<body style="background-color: slategray;">
+
+<section class="section-padding container">
+  <h2 class="text-center">Blog</h2>
+<center><h4><b>Top Security Best Practices for Web Developers</b></h4></center><hr>
+
+As a web developer with a growing interest in cybersecurity, I quickly learned that building a website is only part of the job—ensuring it’s secure is equally crucial. Over time, I discovered that implementing best security practices not only protects users’ data but also builds trust and credibility for the sites I develop. Here are some of the key security best practices I’ve adopted along my journey.
+<br><br>
+First and foremost, I always start with secure authentication mechanisms. Using strong, hashed passwords and implementing multi-factor authentication significantly reduces the risk of unauthorized access. I’ve learned to avoid storing plain-text passwords; instead, I rely on algorithms like bcrypt or Argon2 to hash passwords securely. This way, even if the database is compromised, the sensitive data remains protected.
+<br><br>
+Another critical aspect is ensuring data transmission is encrypted. I make it a point to enforce HTTPS across all my websites by obtaining SSL/TLS certificates. This encrypts data exchanged between the user’s browser and the server, preventing man-in-the-middle attacks and eavesdropping. Transitioning sites from HTTP to HTTPS has been one of the simplest yet most effective steps I’ve taken to enhance security.
+<br><br>
+Input validation is a practice I’ve prioritized to prevent injection attacks. Whether it’s form submissions or URL parameters, validating user input on both client and server sides helps prevent malicious data from causing harm. I’ve learned to sanitize inputs properly, filtering out dangerous characters and implementing parameterized queries to ward off SQL injection vulnerabilities.
+<br><br>
+Cross-site scripting (XSS) is another common threat I’ve encountered. To defend against it, I’ve adopted Content Security Policies (CSP) that restrict what scripts can run on my sites. Additionally, encoding user inputs before rendering them on pages ensures that malicious scripts aren’t executed, keeping visitors safe from XSS exploits.
+<br><br>
+I’ve also realized the importance of regular security audits and updates. Keeping my software, libraries, and frameworks up to date helps patch known vulnerabilities. I periodically scan my websites with security tools to identify potential weaknesses and fix them before they can be exploited. Staying informed about the latest security threats has been vital in maintaining a secure environment.
+<br><br>
+Another best practice I’ve embraced is limiting user permissions and access controls. Whether it’s admin dashboards or backend systems, I ensure that users only have the permissions necessary for their roles. This minimizes the damage that can occur if an account is compromised. Additionally, I use secure session management techniques, like setting session timeouts and secure cookies, to prevent hijacking.
+<br><br>
+Lastly, I always include comprehensive error handling and logging. Proper error messages avoid revealing sensitive information, and logs help me monitor suspicious activities. If an attack occurs, these logs are invaluable for analyzing what happened and taking corrective measures promptly.
+<br><br>
+In conclusion, building secure web applications requires a proactive approach and a commitment to best practices. From strong authentication to regular updates, each step I’ve taken has made my websites more resilient against threats. As I continue to learn and grow in this field, security remains a top priority—because protecting users’ data is not just a responsibility, but a trust I strive to uphold.
+
+
+    
+<style>
+    /* Make body full height */
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Content area expands to fill space */
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    footer nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+
+  <div class="content">
+ 
+  </div>
+ <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <style>
+
+    .social-icons a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 32px;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #007bff; /* You can change this color */
+    }
+  </style>
+</head>
+ 
+
+
+
+  <footer>
+    <nav>
+      <div>
+       <a href="service.html">Services</a>
+      <a href="pricing page.html">Pricing Page</a>
+      <a href="testimonial.html">Testimonials</a>
+      <a href="FAQ.html">FAQ</a>
+      <a href="portfolio.html">Portfolio</a>
+
+<center><h2>Follow Me Below:</h2>
+
+  <div class="social-icons">
+    <a href="https://facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://instagram.com/yourprofile" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://tiktok.com/@yourprofile" target="_blank" aria-label="TikTok">
+      <i class="fab fa-tiktok"></i>
+    </a>
+  </div></center>
+
+    </div>
+    </nav>
+    <span style="Color: Yellow"> © 2025 | UNIQUE TECH SECT 5</span>
+  </footer>     
+</body>
+</html>
+
+

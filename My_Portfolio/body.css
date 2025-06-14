@@ -1,0 +1,19 @@
+body {
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
